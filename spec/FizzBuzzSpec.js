@@ -3,6 +3,8 @@ describe("FizzBuzz", function() {
     expect(1).toEqual(1);
   });
 
-  // Add more specs here
+  it("should return fizzbuzz", function() {
+    expect(15).toEqual("FizzBuzz");
+  });
 
 });
